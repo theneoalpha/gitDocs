@@ -2,7 +2,8 @@
 
         Whats actually Git is ?
 
-           (Version control system) Git maintain the history of the project ,in case of open source which person do which changesand where in the project
+           (Version control system) Git maintain the history of the project ,in case of open source
+           which person do which changesand where in the project
 
 
 
@@ -27,11 +28,13 @@
 
     git init
 
-        isase ek empty hidden .git file create hoti hai jo ki sare versions ka details store karti hai.
+        isase ek empty hidden .git file create hoti hai jo ki sare versions ka 
+        details store karti hai.
 
     ls -a 
 
-        isase humme hidden files bhi dikhti hai (Applicable only for Linux and Mac). For windows find its homework?                
+        isase humme hidden files bhi dikhti hai (Applicable only for Linux and Mac).
+        For windows find its homework?                
 
     git status
 
@@ -53,7 +56,8 @@
 
     git restore --stagged gitDocs.txt 
 
-        agar hum photo nhi lena chahte guest ka to unhe bolte hai ki aap thoda piche wait kr lijiye cameramen lens change kr rhe hai
+        agar hum photo nhi lena chahte guest ka to unhe bolte hai ki aap thoda piche wait
+        kr lijiye cameramen lens change kr rhe hai
 
 
     git log
@@ -74,7 +78,8 @@
 
      git stash 
 
-        isase hum viewers ko stage ke piche bhej dete hai that means previous stage vale code ko thode der ke liye hide kr dete hai
+        isase hum viewers ko stage ke piche bhej dete hai that means previous stage vale 
+        code ko thode der ke liye hide kr dete hai
 
 
      git stash pop 
@@ -92,15 +97,18 @@
         <-------Fork concepts ----------->
 
 
-        jub hum kisi ke open source repository me contributition karna chahte hai to hum uske repo ko fork karenge taki uska repo hamare github profile me copy ho jayege
+        jub hum kisi ke open source repository me contributition karna chahte hai to 
+        hum uske repo ko fork karenge taki uska repo hamare github profile me copy ho jayege
 
-        fir hame usme new branch banani hai taki uska branch alag ho aur hamara branch(group of code and hamare commits alag ho)
+        fir hame usme new branch banani hai taki uska branch alag ho aur hamara branch(group of 
+        code and hamare commits alag ho)
 
 
     git branch <branchName>
 
 eg  git branch vikashfeatures
-        isase new branch create ho jata hai par us branch me enter karne ke liye hame chcekout karna padhta hai
+        isase new branch create ho jata hai par us branch me enter karne ke liye hame chcekout
+        karna padhta hai
 
 
     git checkout vikashfeature
@@ -110,14 +118,16 @@ eg  git branch vikashfeatures
 
 
 
-        issi type se jitne bhi contributers honge ve apane apne github profile me fork karke apna apna branch create karte hai
+        issi type se jitne bhi contributers honge ve apane apne github profile me fork karke
+        apna apna branch create karte hai
 
 
 
     git merge yashfeatures
 
 
-        iss command se jo yashfeatures vala branch ke code and commits merge ho jayenge vikashfeatures me aur dono branch ab
+        iss command se jo yashfeatures vala branch ke code and commits merge ho jayenge vikashfeatures
+        me aur dono branch ab
         ek branch ban jayega
 
 
